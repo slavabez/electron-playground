@@ -1,0 +1,11 @@
+{
+  "name": "electron-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:slavabez/electron-playground.git",
+  "author": "Slava Bezgachev <bezgachev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.9"
+  }
+}
