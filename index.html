@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Video Info</h1>
+    <form>
+        <div>
+            <label>Select a video</label>
+            <input type="file" accept="video/*" />
+        </div>
+        <button type="submit">Get info</button>
+    </form>
+
+    <script>
+        document.querySelector("form").addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          const file = document.querySelector("input").files[0];
+
+        });
+    </script>
+</body>
+</html>
