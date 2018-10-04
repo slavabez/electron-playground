@@ -6,9 +6,13 @@
   "author": "Slava Bezgachev <bezgachev@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "electron": "^2.0.9"
+    "electron": "^2.0.9",
+    "fluent-ffmpeg": "^2.1.2"
   },
   "scripts": {
     "electron": "electron ."
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.8"
   }
 }
